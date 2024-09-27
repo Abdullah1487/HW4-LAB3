@@ -112,3 +112,4 @@ ggplot(results, aes(x = k, y = accuracy)) +
   geom_point() + 
   labs(title = "Accuracy vs. k in k-NN", x = "k (Number of Neighbors)", y = "Accuracy")
  
+#Findings: The best variable to observe were education and income as race was heavily outweighed with "Whites" compared to the field. As a result based off our graphs and knn results, there is little to no correlation between income and education level  and whether a person had long covid or not. The proportions were relatively the same bwetween each variable and whether it was "no" or "had symptoms 3mo or more". It was easy to predict whether a person would get long covid based on our classifications as the graphs showed proportionate data.
